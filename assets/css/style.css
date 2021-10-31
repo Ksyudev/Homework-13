@@ -1,0 +1,19 @@
+*{
+    font-family: 'Merienda', cursive;
+}
+.form-group {
+    border: 1px solid gray;
+    padding: 30px;
+    width: 30vw;
+    margin: auto;
+}
+small + small {
+    display: none;
+}
+input:valid + small {
+    display: none;
+}
+
+input:valid + small + small {
+    display: block;
+}
